@@ -1,0 +1,11 @@
+//jdk11
+sudo wget https://download.java.net/java/GA/jdk11/9/GPL/openjdk-11.0.2_linux-x64_bin.tar.gz
+tar xvf openjdk-11.0.2_linux-x64_bin.tar.gz
+//neo4j 4.4.11
+sudo wget https://neo4j.com/artifact.php?name=neo4j-community-4.4.11-unix.tar.gz
+tar xvf artifact.php?name=neo4j-community-4.4.11-unix.tar.gz
+
+//scp传文件遭遇权限问题，尝试修改文件夹权限
+chmod 777 /data/database
+//失败，尝试git pull下来，设置git
+

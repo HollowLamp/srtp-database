@@ -1,0 +1,7 @@
+nodeId:ID,:LABEL
+city,type
+POI_type,type
+staion_isochrone,type
+station,type
+POI,type
+block,type
